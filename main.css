@@ -1,0 +1,64 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    height: 150px;
+}
+
+#page-title {
+    margin: 10px 0;
+}
+
+#page-desc {
+    margin: 10px 0;
+}
+
+button#reset-grid {
+    background-color: lavender;
+    width: 90px;
+    height: 35px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button#reset-grid:hover {
+    background-color: #dbdbf0;
+}
+
+div.main-container {
+    height: 600px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.grid-container {
+    margin: 20px;
+    padding: 0;
+    border: 1px solid green;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.grid-square {
+    background-color: white;
+    margin: 0;
+}
+
+/* div.grid-square:hover {
+    background-color: black;
+} */
+
+
+
+
+div.debugger {
+    height: 5%;
+    border: 1px solid red;
+    padding: 15px;
+    text-align: center;
+}
